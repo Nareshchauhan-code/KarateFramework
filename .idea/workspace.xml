@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9951e8c0-235d-4da3-9100-540487c63905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/getRequest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/pathvariable.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examples/ExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karatetest/ExamplesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examples/users/EndtoEndScenario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/EndtoEndScenario.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examples/users/UsersRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examples/users/users.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karatetest/users/getRequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/getRequest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +42,10 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExamplesTest.testParallel">
+  <component name="RunManager" selected="Cucumber Java.Feature: getRequest">
     <configuration name="Feature: getRequest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/users/getRequest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/getRequest.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KarateFrameworkNew" />
@@ -68,14 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: pathvariable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Get Request to fetch all the information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/users/pathvariable.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/getRequest.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KarateFrameworkNew" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: pathvariable" />
+      <option name="NAME_FILTER" value="^Get Request to fetch all the information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Request to fetch all the information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get Request to fetch all the information" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: getRequest" />
+        <item itemvalue="Cucumber Java.Scenario: Get Request to fetch all the information" />
         <item itemvalue="JUnit.ExamplesTest.testParallel" />
         <item itemvalue="JUnit.ExamplesTest" />
         <item itemvalue="JUnit.RunnerTest" />
-        <item itemvalue="Cucumber Java.Feature: pathvariable" />
-        <item itemvalue="Cucumber Java.Feature: getRequest" />
       </list>
     </recent_temporary>
   </component>
