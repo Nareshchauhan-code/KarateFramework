@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9951e8c0-235d-4da3-9100-540487c63905" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/matchRequest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karatetest/users/getRequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/getRequest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +29,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/examples/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/karatetest/users" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Naresh Chauhan\IdeaProject\karateFramework\src\test\java\karatetest\users" />
       <recent name="C:\Users\Naresh Chauhan\IdeaProject\karateFramework\src\test\java\examples\users" />
     </key>
   </component>
@@ -42,7 +43,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: getRequest">
+  <component name="RunManager" selected="Cucumber Java.Feature: matchFullResponse">
     <configuration name="Feature: getRequest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/getRequest.feature" />
@@ -51,6 +52,63 @@
       <module name="KarateFrameworkNew" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: getRequest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: matchFullResponse" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/matchFullResponse.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="KarateFrameworkNew" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: matchFullResponse" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: matchRequest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/matchRequest.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="KarateFrameworkNew" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: matchRequest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Get Request to fetch all the information in Json format" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/matchRequest.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="KarateFrameworkNew" />
+      <option name="NAME_FILTER" value="^Get Request to fetch all the information in Json format$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Request to fetch all the information in Json format$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get Request to fetch all the information in Json format" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -82,59 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KarateFrameworkNew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="karatetest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="examples" />
-      <option name="MAIN_CLASS_NAME" value="karatetest.ExamplesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamplesTest.testParallel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KarateFrameworkNew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="karatetest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="karatetest" />
-      <option name="MAIN_CLASS_NAME" value="karatetest.ExamplesTest" />
-      <option name="METHOD_NAME" value="testParallel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KarateFrameworkNew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="karatetest.users.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="examples.users" />
-      <option name="MAIN_CLASS_NAME" value="karatetest.users.RunnerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: matchFullResponse" />
+        <item itemvalue="Cucumber Java.Feature: matchRequest" />
+        <item itemvalue="Cucumber Java.Scenario: Get Request to fetch all the information in Json format" />
         <item itemvalue="Cucumber Java.Feature: getRequest" />
         <item itemvalue="Cucumber Java.Scenario: Get Request to fetch all the information" />
-        <item itemvalue="JUnit.ExamplesTest.testParallel" />
-        <item itemvalue="JUnit.ExamplesTest" />
-        <item itemvalue="JUnit.RunnerTest" />
       </list>
     </recent_temporary>
   </component>
