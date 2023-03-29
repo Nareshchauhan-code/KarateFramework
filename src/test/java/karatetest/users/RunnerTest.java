@@ -6,7 +6,7 @@ class RunnerTest {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("getRequest").relativeTo(getClass());
+        return Karate.run("matchResponseContainDeep").relativeTo(getClass());
     }    
 
 }
