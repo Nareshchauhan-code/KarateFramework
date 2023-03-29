@@ -15,6 +15,8 @@ Feature: To get the all details
     And match response.[0].experience[1] == "#notnull"
     And match response.[0].project[0].projectName == "#ignore"
     And match response.[0].project[0].technology == "#array"
+    And match response.[0].jobId == "#number"
+    And match response.[0].experience[1] == "#string"
 
 
 

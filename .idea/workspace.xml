@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9951e8c0-235d-4da3-9100-540487c63905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/FuzzyMatcher.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/XMLValidation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karatetest/users/FuzzyMatcher.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/FuzzyMatcher.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
     <configuration name="Feature: FuzzyMatcher" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/FuzzyMatcher.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KarateFrameworkNew" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
