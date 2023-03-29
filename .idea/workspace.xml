@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9951e8c0-235d-4da3-9100-540487c63905" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/KarateVariables.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karatetest/users/FuzzyMatcher.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karatetest/users/FuzzyMatcher.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: FuzzyMatcher">
+  <component name="RunManager" selected="Cucumber Java.Feature: KarateVariables">
     <configuration name="Feature: FuzzyMatcher" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/FuzzyMatcher.feature" />
@@ -63,14 +63,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: JSONArrayValidation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: KarateVariables" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/JSONArrayValidation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karatetest/users/KarateVariables.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KarateFrameworkNew" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: JSONArrayValidation" />
+      <option name="SUGGESTED_NAME" value="Feature: KarateVariables" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: KarateVariables" />
         <item itemvalue="Cucumber Java.Feature: FuzzyMatcher" />
         <item itemvalue="Cucumber Java.Feature: XMLValidation" />
         <item itemvalue="Cucumber Java.Scenario: Get Request to fetch all the information in xml format (1)" />
         <item itemvalue="Cucumber Java.Feature: matchFullResponse" />
-        <item itemvalue="Cucumber Java.Feature: JSONArrayValidation" />
       </list>
     </recent_temporary>
   </component>
